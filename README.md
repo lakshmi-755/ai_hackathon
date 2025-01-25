@@ -12,3 +12,6 @@ the image  thats why this is used
 then from the obtained text description i want to apply nlp preprocessing techniques like stop words removal ,stemming ,lemmatisation and to obtain key words TF-IDF Vectorizer and after obtainning key words the
    iam fine tuning the open api model on the shortstories dataset on kaggle  to generate a short story
 after creating the model we can create a web app using the streamlit application   streamlit is  a opensource frame work for aiml and datascience to deliver dynamic apps with few lines of code
+my streamlit based user interface : urls we can also acess our web app with out internet
+  Local URL: http://localhost:8502
+  Network URL: http://10.0.11.74:8502
