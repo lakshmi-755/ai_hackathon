@@ -9,8 +9,6 @@ and then passing this keywords to a open api model that is finetuned on shortsto
  Using the BLIP model from Hugging Face provides a powerful,pre-trained solution for generating captions for images.It abstracts away the complexity of training an image captioning
 model,allowing you to focus on using the model for practical applications.This approach works well without needing a custom dataset, andit gives you high-quality captions based on the visual content of
 the image  thats why this is used
-
-2) then from the obtained text description i want to apply nlp preprocessing techniques like stop words removal ,stemming ,lemmatisation and to obtain key words TF-IDF Vectorizer and after obtainning key words the
-3) iam fine tuning the open api model on the shortstories dataset on kaggle  to generate a short story
-4) 
-   
+then from the obtained text description i want to apply nlp preprocessing techniques like stop words removal ,stemming ,lemmatisation and to obtain key words TF-IDF Vectorizer and after obtainning key words the
+   iam fine tuning the open api model on the shortstories dataset on kaggle  to generate a short story
+after creating the model we can create a web app using the streamlit application   streamlit is  a opensource frame work for aiml and datascience to deliver dynamic apps with few lines of code
